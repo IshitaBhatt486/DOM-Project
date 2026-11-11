@@ -1,0 +1,14 @@
+Dimension,Check,Result,Action
+Accuracy,"Percentages 0-100, scores 1-10, months 1-12, years 2020-2024, measures positive",All 500 records pass,None needed
+Accuracy,Revenue = Tourists x Spending / 1000,Holds on all 500 records,Revenue relabelled as USD thousand
+Completeness,"Blanks and placeholders (NA, null, -, unknown)",0 cells,No imputation needed
+Completeness,Unrated hotel tier,82 records,"Kept as its own level; structural, so not imputed"
+Consistency,Exact duplicate rows,0 found,None removed
+Consistency,Stray spaces and case variants of the same label,0 cells with stray spaces; 0 case variants,None corrected
+Consistency,"City belongs to one, correct country",56 of 56 cities map to one country; pairs reviewed by hand,None needed
+Consistency,Repeated City-Year-Month keys,61 records in 30 keys,"Retained and flagged: 0 keys repeat the same purpose and hotel tier, but city-wide fields conflict, so the cause cannot be determined"
+Timeliness,Period covered,2020-2024,Stated as a limitation
+Believability,Airport passengers fewer than tourists,36 records,Retained and flagged: possible through land or sea arrivals
+Believability,Passengers per flight above 853 seats,20 records,Retained and flagged: none remain if passengers count both directions and flights only arrivals
+Believability,Room cost for the stay above total spend,205 records if one guest pays; 83 if two share,Retained and flagged on the two-guest basis; the source does not define spend
+Interpretability,Revenue columns named USD but holding USD thousand,2 columns,Renamed with _USD_000
