@@ -1,6 +1,0 @@
-Variable_X,Variable_Y,Pearson_r
-Tourist_Spending_USD,Tourism_Revenue_USD_000,0.779
-Tourism_Revenue_USD_000,Eco_Tourism_Revenue_USD_000,0.778
-Carbon_Footprint_kg,Carbon_kg_per_Tourist,0.742
-Average_Length_of_Stay,Tourist_Nights,0.739
-Number_of_Hotels,Tourists_per_Hotel,-0.734

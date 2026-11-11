@@ -1,8 +1,0 @@
-Check,Result,Evidence
-No unintended duplicate records,Pass,0 exact duplicates; 500 unique Record_IDs
-Missing values handled appropriately,Pass,"0 missing values; 82 structural blanks, one for each Unrated record"
-Consistent data types,Pass,All 51 columns hold a single type
-Consistent category labels,Pass,"0 case variants across 20 Country, 56 City, 7 Purpose_of_Visit, 6 Hotel_Rating"
-Valid date and numerical formats,Pass,"Every Period_Date is a real date matching its Year and Month; percentages, scores, months and years are in range"
-No accidental loss of important observations,Pass,"500 records in and 500 out; all 23 original columns compared value by value; arrivals total 62,631,942 reconciles in both summaries"
-Dataset structure preserved,Pass,"One row per original record in raw order; all 23 original columns present, 2 renamed"

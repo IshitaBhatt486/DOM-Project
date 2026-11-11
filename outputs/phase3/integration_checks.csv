@@ -1,9 +1,0 @@
-Check,Result,Note
-Record count before join,500,Left table
-Record count after join,500,Must equal the left table
-Distinct countries in left table,20,
-Countries matched in UN M49,20,Must equal distinct countries
-Country names needing the crosswalk,3,"Turkey, United Kingdom, United States"
-Blank cells in joined columns,0,Must be 0
-Duplicate Record_IDs after join,0,Must be 0
-Duplicate country names in UN table,0,"Must be 0, or a join can multiply rows"

@@ -1,9 +1,0 @@
-Variable,Method,Code,Label,Lower_Bound,Upper_Bound,Records,Bin_Width
-Hotel_Occupancy_Rate,Equal-width,1,Low,40.0,52.45,124,12.45
-Hotel_Occupancy_Rate,Equal-width,2,Moderate,52.45,64.9,134,12.45
-Hotel_Occupancy_Rate,Equal-width,3,High,64.9,77.35,113,12.45
-Hotel_Occupancy_Rate,Equal-width,4,Very High,77.35,89.8,129,12.45
-Number_of_Tourists,Equal-frequency,1,Low,50887,88547,125,37660
-Number_of_Tourists,Equal-frequency,2,Medium-Low,88744,124495,125,35751
-Number_of_Tourists,Equal-frequency,3,Medium-High,124763,164159,125,39396
-Number_of_Tourists,Equal-frequency,4,High,164161,199960,125,35799
