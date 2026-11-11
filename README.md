@@ -6,9 +6,20 @@ Business analytics course project using the Tourism & Hospitality Industry Analy
 |---|---|---|
 | 1 — Business understanding | [phase1.md](phase1.md) | Business questions, stakeholders and objectives |
 | 2 — Data understanding | [phase2.md](phase2.md) | `analysis/phase2_data_understanding.py` and `notebooks/02_Data_Understanding.ipynb` |
+| 3 — Data preprocessing and preparation | [phase3.md](phase3.md) | `analysis/phase3_data_preprocessing.py` and `notebooks/03_Data_Preprocessing.ipynb` |
 | 4 — Descriptive analytics | [phase4.md](phase4.md) | `analysis/phase4_descriptive_analytics.py` and `notebooks/04_Descriptive_Analytics.ipynb` |
 
-Course requirements are recorded in [context.md](context.md). A Phase 3 prepared dataset is not yet present; Phase 4 uses the unchanged raw data and documents that dependency explicitly.
+Course requirements are recorded in [context.md](context.md). Phase 3 writes the prepared datasets to `data/processed/`: `tourism_cleaned.csv` for descriptive work and Tableau, and `tourism_model_ready.csv` for Phase 6. Phase 4 was calculated on the raw data; its statistics still hold because Phase 3 changed no original values.
+
+## Reproduce Phase 3
+
+From the repository root, with Python 3.10+ and matplotlib:
+
+```sh
+python analysis/phase3_data_preprocessing.py
+```
+
+This regenerates `phase3.md`, the files in `data/processed/` and the tables and box plots in `outputs/phase3/`.
 
 ## Reproduce Phase 4
 
