@@ -1,0 +1,10 @@
+KPI,Value,Unit,Tableau_formula
+Records,500,count,COUNT([Record_ID])
+Countries,20,count,COUNTD([Country])
+Total observed arrivals,62631942.0,persons,SUM([Number_of_Tourists])
+Mean arrivals per record,125263.884,persons,AVG([Number_of_Tourists])
+Spend per tourist (tourist-weighted),2792.0092,USD,SUM([Tourism_Revenue_USD_000])*1000/SUM([Number_of_Tourists])
+Total observed revenue,174868.9581,USD million,SUM([Tourism_Revenue_USD_000])/1000
+Mean hotel occupancy,64.8408,%,AVG([Hotel_Occupancy_Rate])
+Median tourists per hotel,440.4369,persons,MEDIAN([Tourists_per_Hotel])
+Mean length of stay,8.672,nights,AVG([Average_Length_of_Stay])

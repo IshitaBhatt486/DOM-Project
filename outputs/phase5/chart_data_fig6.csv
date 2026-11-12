@@ -1,0 +1,36 @@
+Purpose_of_Visit,UN_Region,Records,Tourist_Weighted_Spend_USD
+Business,Africa,9,3161.6702
+Business,Americas,9,3660.8169
+Business,Asia,22,3282.9311
+Business,Europe,23,2227.5126
+Business,Oceania,8,3326.0108
+Cultural,Africa,4,2557.4156
+Cultural,Americas,16,2577.3038
+Cultural,Asia,21,2884.5917
+Cultural,Europe,20,2948.3055
+Cultural,Oceania,3,3537.6499
+Educational,Africa,8,3448.0742
+Educational,Americas,15,2633.9696
+Educational,Asia,27,2963.5497
+Educational,Europe,25,2725.7537
+Educational,Oceania,5,2738.8762
+Family Visit,Africa,7,2536.142
+Family Visit,Americas,20,2789.7143
+Family Visit,Asia,25,2862.7309
+Family Visit,Europe,24,2433.0974
+Family Visit,Oceania,4,1572.2347
+Leisure,Africa,8,2278.2588
+Leisure,Americas,10,2723.5656
+Leisure,Asia,18,2955.5083
+Leisure,Europe,24,2633.9215
+Leisure,Oceania,2,4187.7209
+Medical,Africa,12,2236.2198
+Medical,Americas,15,3206.9676
+Medical,Asia,22,2781.3113
+Medical,Europe,20,2963.6359
+Medical,Oceania,3,2859.8176
+Religious,Africa,10,3020.6361
+Religious,Americas,15,2172.8223
+Religious,Asia,28,2655.5711
+Religious,Europe,14,2737.91
+Religious,Oceania,4,2871.3329
