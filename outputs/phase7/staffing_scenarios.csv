@@ -1,0 +1,4 @@
+Scenario,Assumed_Occupancy_Percent,Housekeeping_Hours_Per_Day,Attendants_Per_Shift
+Illustrative low,50.0,25.0,5
+Sample-mean reference,64.8408,32.4204,6
+Illustrative high,80.0,40.0,7

@@ -1,0 +1,14 @@
+{
+  "source": "data/processed/tourism_cleaned.csv",
+  "source_sha256": "b212915f92a80b12a614e4d94c4961cbbc47f84eec41c50400d7aa817a1a69bd",
+  "rows": 500,
+  "columns": 51,
+  "model_review": {
+    "notebook": "notebooks/06_Logistic_Regression.ipynb",
+    "target": "High_Satisfaction (score above full-data median)",
+    "code_cells": 3,
+    "cells_with_saved_outputs": 0,
+    "performance_verified_by_phase7": false,
+    "decision_use": "Do not use as an arrivals forecast or causal treatment rule"
+  }
+}

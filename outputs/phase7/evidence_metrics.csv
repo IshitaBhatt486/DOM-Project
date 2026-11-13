@@ -1,0 +1,25 @@
+Metric,Value
+records,500
+countries,20
+cities,56
+mean_arrivals,125263.884
+arrival_cv_percent,34.35737381461557
+spend_cv_percent,48.14989263753257
+weighted_spend_usd,2792.009197313569
+mean_occupancy_percent,64.8408
+below_60_occupancy_records,207
+repeated_key_records,61
+room_spend_flag_records,83
+january_mean_arrivals,134448.86363636365
+august_mean_arrivals,115871.89583333333
+Business_weighted_spend_usd,3002.0489589909025
+Business_records,71
+Family Visit_weighted_spend_usd,2623.2094860194165
+Family Visit_records,80
+business_vs_family_gap_percent,14.44183070359184
+Americas_business_spend_usd,3660.8169197055367
+Americas_business_records,9
+Europe_business_spend_usd,2227.512654733725
+Europe_business_records,23
+country_record_min,14
+country_record_max,33

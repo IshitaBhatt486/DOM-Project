@@ -1,0 +1,43 @@
+{
+  "assumptions": {
+    "hotel_rooms": 100,
+    "days": 30,
+    "adr_usd": 120,
+    "variable_cost_per_room_night_usd": 35,
+    "fixed_monthly_cost_usd": 150000,
+    "targeted_pilot_cost_usd": 6000,
+    "discount_campaign_cost_usd": 1500,
+    "discount_fraction": 0.1,
+    "pilot_occupancy_uplifts_pp": [
+      1,
+      4,
+      7
+    ],
+    "discount_occupancy_uplifts_pp": [
+      5,
+      10,
+      15
+    ],
+    "future_demand_room_nights": [
+      1800,
+      2400,
+      3300
+    ],
+    "illustrative_probabilities": [
+      0.3,
+      0.5,
+      0.2
+    ],
+    "partner_extra_capacity_room_nights": 450,
+    "partner_net_contribution_usd": 50,
+    "partner_monthly_retainer_usd": 2000,
+    "expansion_extra_rooms": 20,
+    "expansion_extra_fixed_and_capital_charge_usd": 20000,
+    "housekeeping_minutes_per_occupied_room": 30,
+    "housekeeping_productive_hours_per_shift": 6
+  },
+  "empirical_reference_only": {
+    "mean_record_occupancy_percent": 64.8408
+  },
+  "scenario_status": "Illustrative assumptions; no fitted uplift, estimated probabilities or financial forecast"
+}
