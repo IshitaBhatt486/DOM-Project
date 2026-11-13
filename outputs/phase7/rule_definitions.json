@@ -1,0 +1,46 @@
+{
+  "unit_of_analysis": "One prepared destination-period record, not one individual tourist",
+  "outcomes": {
+    "High spending": {
+      "column": "Tourist_Spending_USD",
+      "operator": ">=",
+      "cutoff": 3000,
+      "unit": "USD per tourist"
+    },
+    "High occupancy": {
+      "column": "Hotel_Occupancy_Rate",
+      "operator": ">=",
+      "cutoff": 70,
+      "unit": "percent"
+    },
+    "High satisfaction": {
+      "column": "Tourist_Satisfaction_Score",
+      "operator": ">=",
+      "cutoff": 8,
+      "unit": "score"
+    },
+    "High arrivals": {
+      "column": "Number_of_Tourists",
+      "operator": ">=",
+      "cutoff": 150000,
+      "unit": "arrivals per record"
+    }
+  },
+  "antecedent_columns": [
+    "Purpose_of_Visit",
+    "UN_Region",
+    "Hotel_Rating",
+    "Season"
+  ],
+  "project_thresholds": {
+    "minimum_support": 0.05,
+    "minimum_confidence": 0.7
+  },
+  "course_example_thresholds": {
+    "minimum_support": 0.4,
+    "minimum_confidence": 0.7
+  },
+  "threshold_basis": "Project support 5% for small subgroups; confidence 70% follows Module 4 worked example",
+  "strength_definition": "Support and confidence thresholds; lift assessed separately",
+  "search_scope": "All single-category to single-outcome combinations; direct pair counting, not full Apriori"
+}

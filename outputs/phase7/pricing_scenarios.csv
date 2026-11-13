@@ -1,7 +1,0 @@
-Action,Scenario,Assumed_Uplift_PP,Assumed_Occupancy_Percent,Assumed_ADR_USD,Action_Cost_USD,Monthly_Profit_USD,Incremental_Profit_USD
-Targeted pilot,Conservative,1,65.8408,120,6000,11894.040000000008,-3450.0
-Targeted pilot,Central,4,68.8408,120,6000,19544.040000000008,4200.0
-Targeted pilot,Optimistic,7,71.84079999999999,120,6000,27194.03999999998,11849.99999999997
-Blanket discount,Conservative,5,69.8408,108.0,1500,1451.3520000000135,-13892.687999999995
-Blanket discount,Central,10,74.8408,108.0,1500,12401.351999999984,-2942.6880000000237
-Blanket discount,Optimistic,15,79.8408,108.0,1500,23351.352000000014,8007.312000000005

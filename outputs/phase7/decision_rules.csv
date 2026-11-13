@@ -1,4 +1,0 @@
-Action,Expected_Monetary_Value_USD,Worst_Case_Payoff_USD,Maximum_Regret_USD
-Keep capacity,0.0,0,13000
-Contract overflow,1000.0,-2000,2000
-Expand by 20 rooms,-14900.0,-20000,20000
