@@ -1,0 +1,9 @@
+Metric,Value
+records,500
+mean_arrivals,125263.884
+mean_spending_usd,2796.03784
+mean_occupancy_percent,64.8408
+below_60_occupancy_records,207
+rules_checked,88
+frequent_pairs,74
+strong_rules,0

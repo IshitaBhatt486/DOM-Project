@@ -1,0 +1,8 @@
+{
+  "source": "data/processed/tourism_cleaned.csv",
+  "source_sha256": "b212915f92a80b12a614e4d94c4961cbbc47f84eec41c50400d7aa817a1a69bd",
+  "rows": 500,
+  "rules_checked": 88,
+  "strong_rules": 0,
+  "validation": "Exploratory in-sample associations; no statistical significance or out-of-sample claim"
+}
